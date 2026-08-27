@@ -35,6 +35,12 @@
 
 ###
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/rainniel2/rainniel2/snake-output/snake.svg" alt="Snake animation" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rainniel2/rainniel2/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rainniel2/rainniel2/output/github-snake.svg">
+    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/rainniel2/rainniel2/output/github-snake.svg">
+  </picture>
+</p>
 
 ###
