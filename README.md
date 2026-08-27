@@ -1,8 +1,5 @@
 <div align="center">
-  <img 
-    src="https://raw.githubusercontent.com/rainniel2/rainniel2/output/ocean.gif" 
-    alt="GitHub Snake Animation"
-  />
+  <img height="200" src="image/pfp.gif" alt="Profile GIF" />
 </div>
 
 ###
