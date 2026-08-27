@@ -1,5 +1,5 @@
-<div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="pfp.gif"  />
+<div align="center">
+  <img height="200" src="pfp.gif" alt="Rainniel profile animation" />
 </div>
 
 ###
