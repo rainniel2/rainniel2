@@ -1,3 +1,10 @@
+<div align="center">
+  <img
+    src="assets/rynl-banner.svg"
+    width="100%"
+    alt="Rainniel Villela"
+  />
+</div>
 
 <p align="center">
   <picture>
