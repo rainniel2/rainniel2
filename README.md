@@ -21,6 +21,21 @@
   </a>
 </p>
 
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────┐
+│ RYNL SYSTEM                                          │
+│                                                      │
+│ > status                                             │
+│ ● Available                                          │
+│ 📍 Philippines                                       │
+│ 🎓 BSIT Graduate                                     │
+└──────────────────────────────────────────────────────┘
+```
+
+</div>
+
 <p align="center">
   <picture>
     <source
@@ -37,3 +52,4 @@
     />
   </picture>
 </p>
+```
