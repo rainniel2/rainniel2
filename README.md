@@ -1,21 +1,38 @@
 <div align="center">
-  <img src="assets/rynl-banner.svg" width="100%" alt="Rainniel Villela" />
+  <img
+    src="assets/rynl-banner.svg"
+    width="100%"
+    alt="Rainniel Villela"
+  />
 </div>
 
+<br>
+
 <p align="center">
-  <a href="YOUR_FACEBOOK_URL">
-    <img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+  <a href="YOUR_LINKEDIN_URL">
+    <img
+      src="assets/linkedin.svg"
+      width="31%"
+      alt="LinkedIn"
+    />
   </a>
   <a href="YOUR_INSTAGRAM_URL">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="YOUR_X_URL">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+    <img
+      src="assets/instagram.svg"
+      width="31%"
+      alt="Instagram"
+    />
   </a>
   <a href="mailto:YOUR_EMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img
+      src="assets/gmail.svg"
+      width="31%"
+      alt="Gmail"
+    />
   </a>
 </p>
+
+<br>
 
 <p align="center">
   <picture>
