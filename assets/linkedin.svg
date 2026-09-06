@@ -9,18 +9,15 @@
       <stop offset="1" stop-color="#43A7FF"/>
     </linearGradient>
 
-    <!-- Icon gradient -->
-    <linearGradient id="blue" x1="24" y1="54" x2="60" y2="18" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07558F"/>
-      <stop offset=".45" stop-color="#0A66C2"/>
-      <stop offset=".75" stop-color="#2186D9"/>
-      <stop offset="1" stop-color="#43A7FF"/>
-    </linearGradient>
-
     <!-- Blue glow -->
-    <radialGradient id="glow" cx="0" cy="0" r="1"
+    <radialGradient
+      id="glow"
+      cx="0"
+      cy="0"
+      r="1"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(315 8) rotate(140) scale(165 105)">
+      gradientTransform="translate(315 8) rotate(140) scale(165 105)"
+    >
       <stop stop-color="#43A7FF" stop-opacity=".3"/>
       <stop offset=".35" stop-color="#0A66C2" stop-opacity=".18"/>
       <stop offset=".7" stop-color="#07558F" stop-opacity=".1"/>
@@ -94,18 +91,7 @@
     opacity=".65"
   />
 
-  <!-- LinkedIn icon -->
-  <rect
-    x="26"
-    y="19"
-    width="34"
-    height="34"
-    rx="3"
-    fill="url(#blue)"
-    opacity=".98"
-  />
-
-  <!-- LinkedIn "in" -->
+  <!-- Clean white LinkedIn icon -->
   <text
     x="43"
     y="44"
