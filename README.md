@@ -6,22 +6,37 @@
   />
 </div>
 
+<br>
+
 <p align="center">
-  <a href="YOUR_FACEBOOK_URL">
-    <img src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+  <a href="YOUR_LINKEDIN_URL">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
   </a>
   <a href="YOUR_INSTAGRAM_URL">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="YOUR_X_URL">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+    <img
+      src="https://img.shields.io/badge/Instagram-111111?style=flat-square&logo=instagram&logoColor=white"
+      alt="Instagram"
+    />
   </a>
   <a href="mailto:YOUR_EMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img
+      src="https://img.shields.io/badge/Gmail-111111?style=flat-square&logo=gmail&logoColor=white"
+      alt="Gmail"
+    />
   </a>
 </p>
 
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=rainniel2&label=Profile%20Views&color=111111&style=flat-square"
+    alt="Profile Views"
+  />
+</p>
 
+<br>
 
 <p align="center">
   <picture>
@@ -39,4 +54,3 @@
     />
   </picture>
 </p>
-```
