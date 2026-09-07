@@ -1,26 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" fill="none">
+
   <defs>
 
-    <!-- LinkedIn-inspired background -->
+    <!-- START OF THE CONNECTED GRADIENT -->
     <linearGradient id="bg" x1="0" y1="72" x2="360" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#042B49"/>
-      <stop offset=".38" stop-color="#064B78"/>
-      <stop offset=".68" stop-color="#0A66C2"/>
-      <stop offset="1" stop-color="#43A7FF"/>
+      <stop offset="0" stop-color="#042B49"/>
+      <stop offset="0.42" stop-color="#075A8F"/>
+      <stop offset="0.72" stop-color="#0875C7"/>
+      <stop offset="1" stop-color="#2394E8"/>
     </linearGradient>
 
-    <!-- Blue glow -->
+    <!-- Glow -->
     <radialGradient
       id="glow"
       cx="0"
       cy="0"
       r="1"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(315 8) rotate(140) scale(165 105)"
+      gradientTransform="translate(330 8) rotate(140) scale(170 110)"
     >
-      <stop stop-color="#43A7FF" stop-opacity=".3"/>
-      <stop offset=".35" stop-color="#0A66C2" stop-opacity=".18"/>
-      <stop offset=".7" stop-color="#07558F" stop-opacity=".1"/>
+      <stop stop-color="#48B2FF" stop-opacity=".28"/>
+      <stop offset=".35" stop-color="#1B8DD9" stop-opacity=".16"/>
+      <stop offset=".7" stop-color="#07558F" stop-opacity=".08"/>
       <stop offset="1" stop-color="#07558F" stop-opacity="0"/>
     </radialGradient>
 
@@ -30,20 +31,20 @@
         d="M12 0H0V12"
         stroke="#FFFFFF"
         stroke-width="1"
-        opacity=".065"
+        opacity=".055"
       />
     </pattern>
 
-    <!-- Border gradient -->
+    <!-- Border -->
     <linearGradient id="border" x1="0" y1="72" x2="360" y2="0">
-      <stop stop-color="#07558F" stop-opacity=".55"/>
-      <stop offset=".5" stop-color="#0A66C2" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#43A7FF" stop-opacity=".75"/>
+      <stop stop-color="#07558F" stop-opacity=".65"/>
+      <stop offset=".55" stop-color="#1689D7" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#46B1FF" stop-opacity=".8"/>
     </linearGradient>
 
   </defs>
 
-  <!-- Background -->
+  <!-- BACKGROUND -->
   <rect
     x="1"
     y="1"
@@ -53,7 +54,7 @@
     fill="url(#bg)"
   />
 
-  <!-- Blue glow -->
+  <!-- GLOW -->
   <rect
     x="1"
     y="1"
@@ -63,7 +64,7 @@
     fill="url(#glow)"
   />
 
-  <!-- Pixel grid -->
+  <!-- PIXEL GRID -->
   <rect
     x="1"
     y="1"
@@ -73,7 +74,7 @@
     fill="url(#grid)"
   />
 
-  <!-- Border -->
+  <!-- BORDER -->
   <rect
     x="1.5"
     y="1.5"
@@ -84,14 +85,23 @@
     stroke-width="1"
   />
 
-  <!-- Pixel decorations -->
-  <path
-    d="M8 12h8v4H8zM20 8h4v4h-4zM332 56h8v4h-8zM344 52h4v4h-4z"
-    fill="#43A7FF"
-    opacity=".65"
-  />
+  <!-- TOP LEFT PIXELS -->
+  <rect x="8" y="12" width="8" height="4" fill="#43A7FF" opacity=".78"/>
+  <rect x="20" y="8" width="4" height="4" fill="#43A7FF" opacity=".68"/>
+  <rect x="26" y="15" width="4" height="4" fill="#43A7FF" opacity=".48"/>
 
-  <!-- Clean white LinkedIn icon -->
+  <!-- CONNECTING PIXEL TRAIL -->
+  <rect x="286" y="19" width="4" height="4" fill="#62BEFF" opacity=".26"/>
+  <rect x="294" y="19" width="4" height="4" fill="#62BEFF" opacity=".19"/>
+  <rect x="302" y="19" width="4" height="4" fill="#62BEFF" opacity=".12"/>
+  <rect x="310" y="19" width="4" height="4" fill="#62BEFF" opacity=".06"/>
+
+  <!-- BOTTOM RIGHT PIXELS -->
+  <rect x="326" y="56" width="8" height="4" fill="#3CA9FA" opacity=".55"/>
+  <rect x="338" y="52" width="4" height="4" fill="#43A7FF" opacity=".48"/>
+  <rect x="346" y="58" width="4" height="4" fill="#6BC7FF" opacity=".34"/>
+
+  <!-- YOUR ORIGINAL LINKEDIN ICON -->
   <text
     x="43"
     y="44"
@@ -104,7 +114,7 @@
     in
   </text>
 
-  <!-- Main text -->
+  <!-- MAIN TEXT -->
   <text
     x="78"
     y="39"
@@ -117,7 +127,7 @@
     LINKEDIN
   </text>
 
-  <!-- Subtitle -->
+  <!-- SUBTITLE -->
   <text
     x="78"
     y="52"
@@ -130,7 +140,7 @@
     CONNECT
   </text>
 
-  <!-- Extra pixels -->
+  <!-- SMALL PIXELS -->
   <rect
     x="22"
     y="15"
