@@ -10,7 +10,9 @@
 
 <div align="center">
 
-  <a href="https://www.linkedin.com/in/rainniel-villela"><img src="assets/linkedin.svg" width="32%" alt="LinkedIn"></a><a href="YOUR_INSTAGRAM_URL"><img src="assets/instagram.svg" width="32%" alt="Instagram"></a><a href="mailto:YOUR_EMAIL@gmail.com"><img src="assets/gmail.svg" width="32%" alt="Gmail"></a>
+  <a href="https://www.linkedin.com/in/rainniel-villela"><img src="assets/linkedin.svg" width="32%" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/rainniel89"><img src="assets/instagram.svg" width="32%" alt="Instagram"></a>
+  <a href="mailto:YOUR_EMAIL@gmail.com"><img src="assets/gmail.svg" width="32%" alt="Gmail"></a>
 
 </div>
 
