@@ -1,49 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" fill="none">
+
   <defs>
 
-    <!-- Blue background -->
+    <!-- MIDDLE OF THE CONNECTED GRADIENT -->
     <linearGradient id="bg" x1="0" y1="72" x2="360" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#042B49"/>
-      <stop offset=".38" stop-color="#064B78"/>
-      <stop offset=".68" stop-color="#0A66C2"/>
-      <stop offset="1" stop-color="#43A7FF"/>
+      <stop offset="0" stop-color="#07578D"/>
+      <stop offset="0.34" stop-color="#0871B8"/>
+      <stop offset="0.68" stop-color="#138CDE"/>
+      <stop offset="1" stop-color="#3CA9F5"/>
     </linearGradient>
 
-    <!-- Blue glow -->
+    <!-- Glow -->
     <radialGradient
       id="glow"
       cx="0"
       cy="0"
       r="1"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(315 8) rotate(140) scale(165 105)"
+      gradientTransform="translate(330 8) rotate(140) scale(170 110)"
     >
-      <stop stop-color="#43A7FF" stop-opacity=".3"/>
-      <stop offset=".35" stop-color="#0A66C2" stop-opacity=".18"/>
-      <stop offset=".7" stop-color="#07558F" stop-opacity=".1"/>
-      <stop offset="1" stop-color="#07558F" stop-opacity="0"/>
+      <stop stop-color="#61C5FF" stop-opacity=".30"/>
+      <stop offset=".35" stop-color="#2A9DEB" stop-opacity=".17"/>
+      <stop offset=".7" stop-color="#0872B9" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#0872B9" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Pixel grid -->
+    <!-- Grid -->
     <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
       <path
         d="M12 0H0V12"
         stroke="#FFFFFF"
         stroke-width="1"
-        opacity=".065"
+        opacity=".055"
       />
     </pattern>
 
-    <!-- Blue border -->
+    <!-- Border -->
     <linearGradient id="border" x1="0" y1="72" x2="360" y2="0">
-      <stop stop-color="#07558F" stop-opacity=".55"/>
-      <stop offset=".5" stop-color="#0A66C2" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#43A7FF" stop-opacity=".75"/>
+      <stop stop-color="#1184CD" stop-opacity=".68"/>
+      <stop offset=".55" stop-color="#2AA3EE" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#69C8FF" stop-opacity=".82"/>
     </linearGradient>
 
   </defs>
 
-  <!-- Background -->
+  <!-- BACKGROUND -->
   <rect
     x="1"
     y="1"
@@ -53,7 +54,7 @@
     fill="url(#bg)"
   />
 
-  <!-- Blue glow -->
+  <!-- GLOW -->
   <rect
     x="1"
     y="1"
@@ -63,7 +64,7 @@
     fill="url(#glow)"
   />
 
-  <!-- Pixel grid -->
+  <!-- PIXEL GRID -->
   <rect
     x="1"
     y="1"
@@ -73,7 +74,7 @@
     fill="url(#grid)"
   />
 
-  <!-- Border -->
+  <!-- BORDER -->
   <rect
     x="1.5"
     y="1.5"
@@ -84,14 +85,23 @@
     stroke-width="1"
   />
 
-  <!-- Pixel decorations -->
-  <path
-    d="M8 12h8v4H8zM20 8h4v4h-4zM332 56h8v4h-8zM344 52h4v4h-4z"
-    fill="#43A7FF"
-    opacity=".65"
-  />
+  <!-- TOP LEFT PIXELS -->
+  <rect x="8" y="12" width="8" height="4" fill="#4DB8FF" opacity=".82"/>
+  <rect x="20" y="8" width="4" height="4" fill="#4DB8FF" opacity=".72"/>
+  <rect x="26" y="15" width="4" height="4" fill="#79D0FF" opacity=".52"/>
 
-  <!-- Clean white Instagram icon -->
+  <!-- CONNECTING PIXEL TRAIL -->
+  <rect x="286" y="19" width="4" height="4" fill="#79CEFF" opacity=".28"/>
+  <rect x="294" y="19" width="4" height="4" fill="#79CEFF" opacity=".21"/>
+  <rect x="302" y="19" width="4" height="4" fill="#79CEFF" opacity=".14"/>
+  <rect x="310" y="19" width="4" height="4" fill="#79CEFF" opacity=".08"/>
+
+  <!-- BOTTOM RIGHT PIXELS -->
+  <rect x="326" y="56" width="8" height="4" fill="#55BAFF" opacity=".58"/>
+  <rect x="338" y="52" width="4" height="4" fill="#66C5FF" opacity=".50"/>
+  <rect x="346" y="58" width="4" height="4" fill="#8DD9FF" opacity=".38"/>
+
+  <!-- YOUR ORIGINAL INSTAGRAM ICON -->
   <rect
     x="29"
     y="22"
@@ -103,7 +113,7 @@
     stroke-width="3"
   />
 
-  <!-- Camera lens -->
+  <!-- CAMERA LENS -->
   <circle
     cx="43"
     cy="36"
@@ -113,7 +123,7 @@
     stroke-width="3"
   />
 
-  <!-- Camera dot -->
+  <!-- CAMERA DOT -->
   <circle
     cx="51"
     cy="28"
@@ -121,7 +131,7 @@
     fill="#FFFFFF"
   />
 
-  <!-- Main text -->
+  <!-- MAIN TEXT -->
   <text
     x="78"
     y="39"
@@ -134,11 +144,11 @@
     INSTAGRAM
   </text>
 
-  <!-- Subtitle -->
+  <!-- SUBTITLE -->
   <text
     x="78"
     y="52"
-    fill="#C8E7FF"
+    fill="#CFEFFF"
     font-family="monospace"
     font-size="8"
     letter-spacing="2"
@@ -147,14 +157,14 @@
     FOLLOW
   </text>
 
-  <!-- Extra pixels -->
+  <!-- SMALL PIXELS -->
   <rect
     x="22"
     y="15"
     width="4"
     height="4"
-    fill="#43A7FF"
-    opacity=".7"
+    fill="#50B8FF"
+    opacity=".72"
   />
 
   <rect
@@ -162,8 +172,8 @@
     y="52"
     width="4"
     height="4"
-    fill="#0A66C2"
-    opacity=".8"
+    fill="#1183CE"
+    opacity=".82"
   />
 
 </svg>
