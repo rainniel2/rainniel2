@@ -1,49 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="72" viewBox="0 0 360 72" fill="none">
+
   <defs>
 
-    <!-- LinkedIn blue background -->
+    <!-- END OF THE CONNECTED GRADIENT -->
     <linearGradient id="bg" x1="0" y1="72" x2="360" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#042B49"/>
-      <stop offset=".38" stop-color="#064B78"/>
-      <stop offset=".68" stop-color="#0A66C2"/>
-      <stop offset="1" stop-color="#43A7FF"/>
+      <stop offset="0" stop-color="#0870B2"/>
+      <stop offset="0.34" stop-color="#0B80CB"/>
+      <stop offset="0.68" stop-color="#1597E7"/>
+      <stop offset="1" stop-color="#52BAFF"/>
     </linearGradient>
 
-    <!-- Blue glow -->
+    <!-- Glow -->
     <radialGradient
       id="glow"
       cx="0"
       cy="0"
       r="1"
       gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(315 8) rotate(140) scale(165 105)"
+      gradientTransform="translate(330 8) rotate(140) scale(170 110)"
     >
-      <stop stop-color="#43A7FF" stop-opacity=".3"/>
-      <stop offset=".35" stop-color="#0A66C2" stop-opacity=".18"/>
-      <stop offset=".7" stop-color="#07558F" stop-opacity=".1"/>
-      <stop offset="1" stop-color="#07558F" stop-opacity="0"/>
+      <stop stop-color="#83D5FF" stop-opacity=".34"/>
+      <stop offset=".35" stop-color="#38A8F1" stop-opacity=".19"/>
+      <stop offset=".7" stop-color="#0B7DCA" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#0B7DCA" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Pixel grid -->
+    <!-- Grid -->
     <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
       <path
         d="M12 0H0V12"
         stroke="#FFFFFF"
         stroke-width="1"
-        opacity=".065"
+        opacity=".055"
       />
     </pattern>
 
-    <!-- Blue border -->
+    <!-- Border -->
     <linearGradient id="border" x1="0" y1="72" x2="360" y2="0">
-      <stop stop-color="#07558F" stop-opacity=".55"/>
-      <stop offset=".5" stop-color="#0A66C2" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#43A7FF" stop-opacity=".75"/>
+      <stop stop-color="#1389D1" stop-opacity=".70"/>
+      <stop offset=".55" stop-color="#35A9F0" stop-opacity=".76"/>
+      <stop offset="1" stop-color="#91DBFF" stop-opacity=".88"/>
     </linearGradient>
 
   </defs>
 
-  <!-- Background -->
+  <!-- BACKGROUND -->
   <rect
     x="1"
     y="1"
@@ -53,7 +54,7 @@
     fill="url(#bg)"
   />
 
-  <!-- Blue glow -->
+  <!-- GLOW -->
   <rect
     x="1"
     y="1"
@@ -63,7 +64,7 @@
     fill="url(#glow)"
   />
 
-  <!-- Pixel grid -->
+  <!-- PIXEL GRID -->
   <rect
     x="1"
     y="1"
@@ -73,7 +74,7 @@
     fill="url(#grid)"
   />
 
-  <!-- Border -->
+  <!-- BORDER -->
   <rect
     x="1.5"
     y="1.5"
@@ -84,14 +85,23 @@
     stroke-width="1"
   />
 
-  <!-- Pixel decorations -->
-  <path
-    d="M8 12h8v4H8zM20 8h4v4h-4zM332 56h8v4h-8zM344 52h4v4h-4z"
-    fill="#43A7FF"
-    opacity=".65"
-  />
+  <!-- TOP LEFT PIXELS -->
+  <rect x="8" y="12" width="8" height="4" fill="#55BBFF" opacity=".84"/>
+  <rect x="20" y="8" width="4" height="4" fill="#55BBFF" opacity=".74"/>
+  <rect x="26" y="15" width="4" height="4" fill="#88D8FF" opacity=".56"/>
 
-  <!-- Clean white Gmail icon -->
+  <!-- CONNECTING PIXEL TRAIL -->
+  <rect x="286" y="19" width="4" height="4" fill="#8AD8FF" opacity=".30"/>
+  <rect x="294" y="19" width="4" height="4" fill="#8AD8FF" opacity=".23"/>
+  <rect x="302" y="19" width="4" height="4" fill="#8AD8FF" opacity=".16"/>
+  <rect x="310" y="19" width="4" height="4" fill="#8AD8FF" opacity=".10"/>
+
+  <!-- BOTTOM RIGHT PIXELS -->
+  <rect x="326" y="56" width="8" height="4" fill="#67C6FF" opacity=".64"/>
+  <rect x="338" y="52" width="4" height="4" fill="#79CFFF" opacity=".56"/>
+  <rect x="346" y="58" width="4" height="4" fill="#A0E2FF" opacity=".44"/>
+
+  <!-- YOUR ORIGINAL GMAIL ICON -->
   <path
     d="M27 25
        L43 37
@@ -107,7 +117,7 @@
     fill="#FFFFFF"
   />
 
-  <!-- Main text -->
+  <!-- MAIN TEXT -->
   <text
     x="78"
     y="39"
@@ -120,27 +130,27 @@
     GMAIL
   </text>
 
-  <!-- Subtitle -->
+  <!-- SUBTITLE -->
   <text
     x="78"
     y="52"
-    fill="#C8E7FF"
+    fill="#DDF4FF"
     font-family="monospace"
     font-size="8"
     letter-spacing="2"
-    opacity=".78"
+    opacity=".80"
   >
     CONTACT
   </text>
 
-  <!-- Extra pixels -->
+  <!-- SMALL PIXELS -->
   <rect
     x="22"
     y="15"
     width="4"
     height="4"
-    fill="#43A7FF"
-    opacity=".7"
+    fill="#61C3FF"
+    opacity=".74"
   />
 
   <rect
@@ -148,8 +158,8 @@
     y="52"
     width="4"
     height="4"
-    fill="#0A66C2"
-    opacity=".8"
+    fill="#1388D2"
+    opacity=".82"
   />
 
 </svg>
