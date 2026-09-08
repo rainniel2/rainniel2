@@ -12,7 +12,7 @@
 
   <a href="https://www.linkedin.com/in/rainniel-villela"><img src="assets/linkedin.svg" width="32%" alt="LinkedIn"></a>
   <a href="https://www.instagram.com/rainniel89"><img src="assets/instagram.svg" width="32%" alt="Instagram"></a>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rainnielville1@gmail.com">
+  <a href="mailto:rainnielvillela1@gmail.com">
 
 </div>
 
