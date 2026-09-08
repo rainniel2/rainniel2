@@ -26,42 +26,15 @@
 
 <br>
 
-<!-- ABOUT ME -->
-<table align="center" width="100%">
-  <tr>
-    <td width="38%" align="center" valign="middle">
+<div align="center">
+  <img
+    src="assets/rynl-intro.svg"
+    width="100%"
+    alt="Rainniel Villela introduction"
+  />
+</div>
 
-      <img
-        src="assets/rynl-intro.svg"
-        width="85%"
-        alt="RYNL Creative Developer and Designer"
-      />
 
-    </td>
-
-    <td width="62%" align="left" valign="middle">
-
-      <h2>Hey, I'm Rainniel 👋</h2>
-
-      <p>
-        I'm a <b>creative developer and designer</b> who likes bringing ideas
-        to life through both <b>design and technology</b>.
-      </p>
-
-      <p>
-        From <b>graphics and UI</b> to <b>web development and IoT projects</b>,
-        I enjoy creating things where creativity meets functionality.
-      </p>
-
-      <p>
-        <i>Design it. Build it. Make it meaningful.</i>
-      </p>
-
-    </td>
-  </tr>
-</table>
-
-<br>
 
 <!-- GITHUB SNAKE -->
 <p align="center">
