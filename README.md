@@ -26,15 +26,6 @@
 
 <br>
 
-<div align="center">
-  <img
-    src="assets/rynl-intro.svg"
-    width="100%"
-    alt="Rainniel Villela introduction"
-  />
-</div>
-
-
 
 <!-- GITHUB SNAKE -->
 <p align="center">
