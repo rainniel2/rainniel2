@@ -28,19 +28,24 @@
 
 
 <div align="center">
-  <img
-    src="assets/rain.gif"
-    width="220"
-    alt="Pixel rain"
-    align="left"
-  />
+  <div style="display:flex; align-items:center; justify-content:center; gap:32px;">
 
+
+<img
+  src="assets/rain.gif"
+  width="220"
+  alt="Pixel rain"
+/>
+
+<div style="max-width:500px;">
   <p align="justify">
     <strong>A blank canvas doesn’t ask for perfection. It asks for imagination.</strong><br><br>
     I like exploring new ideas, trying things I haven’t done before, and turning curiosity into something worth creating.
   </p>
+</div>
 
-  <br clear="left">
+
+  </div>
 </div>
 
 
