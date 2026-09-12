@@ -27,20 +27,23 @@
 <br>
 
 
-  <tr>
-    <td width="35%" align="center" valign="middle">
-      <img src="assets/rain.gif" width="220" alt="Pixel rain">
-    </td>
+<div align="center">
 
-<td width="65%" valign="middle">
-  <p>
-    I like making things from a blank canvas.<br>
-    Exploring ideas, learning new tools,<br>
-    and turning curiosity into something worth creating.
+<img
+ src="assets/rain.gif"
+ width="220"
+ alt="Pixel rain"
+/>
+
+<br><br>
+
+  <p align="justify">
+    <strong>A blank canvas doesn’t ask for perfection. It asks for imagination.</strong><br>
+    I like exploring new ideas, trying things I haven’t done before, and turning curiosity into something worth creating.
   </p>
-</td>
 
-  </tr>
+</div>
+
 
 
 
