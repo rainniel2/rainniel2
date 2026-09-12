@@ -26,6 +26,8 @@
 
 <br>
 
+<img src="assets/rain.mp4" width="180" alt="Pixel rain">
+
 
 <!-- GITHUB SNAKE -->
 <p align="center">
