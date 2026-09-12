@@ -26,7 +26,7 @@
 
 <br>
 
-<table>
+
   <tr>
     <td width="35%" align="center" valign="middle">
       <img src="assets/rain.gif" width="220" alt="Pixel rain">
@@ -41,7 +41,7 @@
 </td>
 
   </tr>
-</table>
+
 
 
 
