@@ -26,7 +26,23 @@
 
 <br>
 
-<img src="assets/rain.mp4" width="180" alt="Pixel rain">
+<table>
+  <tr>
+    <td width="35%" align="center" valign="middle">
+      <img src="assets/rain.gif" width="220" alt="Pixel rain">
+    </td>
+
+<td width="65%" valign="middle">
+  <p>
+    I like making things from a blank canvas.<br>
+    Exploring ideas, learning new tools,<br>
+    and turning curiosity into something worth creating.
+  </p>
+</td>
+
+  </tr>
+</table>
+
 
 
 <!-- GITHUB SNAKE -->
