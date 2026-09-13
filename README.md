@@ -30,15 +30,12 @@
 
 <div align="center">
 
-<table>
   <tr>
     <td align="center" valign="middle">
       <img src="assets/rain.gif" width="220" alt="Pixel rain">
     </td>
 
-
   </tr>
-</table>
 
 </div>
 
