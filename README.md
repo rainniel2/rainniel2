@@ -36,15 +36,6 @@
       <img src="assets/rain.gif" width="220" alt="Pixel rain">
     </td>
 
-<td align="center" valign="middle">
-  <div style="max-width: 500px;">
-    <p align="justify">
-      <strong>A blank canvas doesn’t ask for perfection. It asks for imagination.</strong><br><br>
-      I like exploring new ideas, trying things I haven’t done before, and turning curiosity into something worth creating.
-    </p>
-  </div>
-</td>
-
 
   </tr>
 </table>
